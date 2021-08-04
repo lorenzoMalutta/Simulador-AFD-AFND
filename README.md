@@ -1,6 +1,6 @@
 # Simulador-AFD-AFND
 
-Para o automato AFD
+Para o automato AFD e AFND
 
 É nescessário colocar a tabela de transiçao no array transicao, o estado final na variavel aceitacao e o estado incial na variavel estadoInicial.
 
