@@ -12,7 +12,8 @@ public class AFND {
                                 };
 
   public  static void main(String args[])throws IOException {
-
+      
+      // Cria o arquivo de saida
       FileWriter arq = new FileWriter("saida.txt");
       PrintWriter gravarArq = new PrintWriter(arq);
 
