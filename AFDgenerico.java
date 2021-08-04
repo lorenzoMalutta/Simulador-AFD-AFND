@@ -14,10 +14,12 @@ public class AFDgenerico {
         public static void main (String args[])throws IOException{
 
             // Cria o arquivo saida
+            //Endereço para criação do arquivo
             FileWriter arq = new FileWriter("saida.txt");
             PrintWriter gravarArq = new PrintWriter(arq);
 
             // Cria o arquivo de entrada de teste
+            //Endereço para criação do arquivo
             String linha = new String();
             String nomeArquivo = "entrada.txt";
 
