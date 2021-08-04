@@ -13,12 +13,12 @@ public class AFND {
 
   public  static void main(String args[])throws IOException {
 
-      FileWriter arq = new FileWriter("C:\\Users\\loren\\IdeaProjects\\AFDgenerico\\src\\saida.txt");
+      FileWriter arq = new FileWriter("saida.txt");
       PrintWriter gravarArq = new PrintWriter(arq);
 
       // Cria o arquivo de entrada de teste
       String linha = new String();
-      String nomeArquivo = "C:\\Users\\loren\\IdeaProjects\\AFDgenerico\\src\\entrada.txt";
+      String nomeArquivo = "entrada.txt";
 
       try {
           FileReader leitroDeArquivo = new FileReader(nomeArquivo);
